@@ -46,7 +46,6 @@ router.patch('/Employee/:id',async(req,res)=>{
 	})
 })
 
-
 router.delete("/Employee/:id",async(req,res)=>{
     const _id = req.params.id;
     const EData = await Employee.findByIdAndDelete(_id);
