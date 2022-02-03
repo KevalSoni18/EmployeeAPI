@@ -5,4 +5,4 @@ var employeeSchema = mongoose.Schema({
     salary:Number
 })
 
-module.exports = mongoose.model("employee",employeeSchema)
+module.exports = mongoose.model("employees",employeeSchema)
