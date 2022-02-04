@@ -1,10 +1,9 @@
 {
-  "name": "EmployeeAPI",
+  "name": "employeeapi",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -13,6 +12,6 @@
   "dependencies": {
     "body-parser": "^1.19.1",
     "express": "^4.17.2",
-    "mongoose": "^6.1.6"
+    "mongoose": "^6.2.0"
   }
 }
